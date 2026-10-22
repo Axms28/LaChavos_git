@@ -8,7 +8,7 @@
 <style>
 :root{
   --bg:#f7f;
-  --fg:#4d6b52;
+  --fg:#3e9ecb;
   --btn:#fff;
   --bd:#d5dbd5;
   box-sizing:border-box;
@@ -19,14 +19,14 @@
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --bg:#171a17;
-    --fg:#a5dca7;
+    --fg:#7c8fe3;
     --btn:#232723;
     --bd:#394039
   }
   }
   :root[data-theme="dark"]{
     --bg:#171a17;
-    --fg:#a5dca7;
+    --fg:#6f8be7;
     --btn:#232723;
     --bd:#394039
   }
@@ -84,7 +84,7 @@ button{
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
 <script>
 (async () => {
-  const GREEN = '#55c057', DARK = '#4d6b52', GRAY = '#5f6368';
+  const GREEN = '#3e9ecb', DARK = '#3e9ecb', GRAY = '#5f6368';
   const PY0 = 22, PY1 = 368;            
   const W = 2048, H = 1024, ky = H / (PY1 - PY0);
   const Yof = py => (380 - py) / 100;
